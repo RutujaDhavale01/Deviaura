@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cleanerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e85d24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c04828;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cleanerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b8bd4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#185fa5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cleanerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#639922;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b6d11;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f9f7f2" opacity="0.5"/>
+
+  <!-- Pipe Cleaner 1 (Red) -->
+  <g>
+    <path d="M 40 160 Q 45 120, 50 80 Q 52 60, 48 40" 
+          stroke="url(#cleanerGrad1)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="48" cy="40" r="5" fill="url(#cleanerGrad1)"/>
+  </g>
+
+  <!-- Pipe Cleaner 2 (Blue) -->
+  <g>
+    <path d="M 100 170 Q 100 120, 100 70 Q 100 50, 105 35" 
+          stroke="url(#cleanerGrad2)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="105" cy="35" r="5" fill="url(#cleanerGrad2)"/>
+  </g>
+
+  <!-- Pipe Cleaner 3 (Green) -->
+  <g>
+    <path d="M 160 160 Q 155 120, 150 80 Q 148 60, 152 40" 
+          stroke="url(#cleanerGrad3)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="152" cy="40" r="5" fill="url(#cleanerGrad3)"/>
+  </g>
+
+  <!-- Decorative shimmer -->
+  <ellipse cx="100" cy="180" rx="60" ry="10" fill="#d3d1c7" opacity="0.2"/>
+</svg>
